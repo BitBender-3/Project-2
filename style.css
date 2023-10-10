@@ -1,1 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    padding: 70px;
+}
+
+aside{
+    padding-left: 6vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    font-size: 3vw;
+}
+
+h1{
+   color: white;
+   text-align: center;
+   font-size: 8vw;
+}
+
+.link{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.img1{
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6vh;
+    padding-bottom: 8vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    display: inline-block;
+    padding: 5px;
+}
+
+.fundo1{
+    background-image: url(img/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+aside.fundo1 > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 3vw;
+    display: inline-block;
+}
+
+aside.fundo2 > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.699);
+    font-weight: 3vw;
+}
+
+.fundo2{
+    background-image: url(img/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
